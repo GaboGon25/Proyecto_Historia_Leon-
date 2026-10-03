@@ -1,0 +1,298 @@
+{
+  "sources": [
+    {
+      "key": "municipio",
+      "title": "Municipio de Léon",
+      "institution": "Mapa Nacional de Turismo · INTUR",
+      "url": "https://www.mapanicaragua.com/municipio-de-leon/",
+      "publication_date": "2020-04-27 (metadatos del portal)",
+      "accessed_on": "2026-10-02",
+      "verified": true,
+      "notes": "Contenido consultado mediante la API pública del portal institucional. Fecha de publicación según metadatos; no equivale a la fecha de los hechos. Revisión documental inicial, pendiente de contraste con fuentes primarias."
+    },
+    {
+      "key": "paz",
+      "title": "Arquitectura de La Paz Centro",
+      "institution": "Mapa Nacional de Turismo · INTUR",
+      "url": "https://www.mapanicaragua.com/arquitectura-de-la-paz-centro/",
+      "publication_date": "2020-07-21 (metadatos del portal)",
+      "accessed_on": "2026-10-02",
+      "verified": true,
+      "notes": "Contenido consultado mediante la API pública del portal institucional. Fecha de publicación según metadatos; no equivale a la fecha de los hechos. Revisión documental inicial, pendiente de contraste con fuentes primarias."
+    },
+    {
+      "key": "patrimonio",
+      "title": "Ciudades Patrimoniales",
+      "institution": "Mapa Nacional de Turismo · INTUR",
+      "url": "https://www.mapanicaragua.com/portfolio-items/ciudades-patrimoniales/",
+      "publication_date": "2022-02-18 (metadatos del portal)",
+      "accessed_on": "2026-10-02",
+      "verified": true,
+      "notes": "Contenido consultado mediante la API pública del portal institucional. Fecha de publicación según metadatos; no equivale a la fecha de los hechos. Revisión documental inicial, pendiente de contraste con fuentes primarias."
+    },
+    {
+      "key": "osm-leon-viejo",
+      "title": "León Viejo · registro cartográfico OSM",
+      "institution": "OpenStreetMap contributors · Nominatim",
+      "url": "https://www.openstreetmap.org/node/1995471042",
+      "publication_date": "",
+      "accessed_on": "2026-10-02",
+      "verified": true,
+      "notes": "Ubicación consultada en Nominatim; se eligió el objeto del sitio, no el centro municipal. Municipio y departamento coinciden con la ubicación institucional. Coordenadas WGS84, grados decimales. ODbL 1.0; atribución OpenStreetMap contributors. No es un levantamiento topográfico."
+    },
+    {
+      "key": "osm-catedral",
+      "title": "Catedral de León · registro cartográfico OSM",
+      "institution": "OpenStreetMap contributors · Nominatim",
+      "url": "https://www.openstreetmap.org/way/660182420",
+      "publication_date": "",
+      "accessed_on": "2026-10-02",
+      "verified": true,
+      "notes": "Ubicación consultada en Nominatim; se eligió el objeto del sitio, no el centro municipal. Municipio y departamento coinciden con la ubicación institucional. Coordenadas WGS84, grados decimales. ODbL 1.0; atribución OpenStreetMap contributors. No es un levantamiento topográfico."
+    }
+  ],
+  "places": [
+    {
+      "slug": "leon-viejo",
+      "review_status": "reviewed",
+      "period": "Siglo XVI",
+      "description": "Las ruinas de León Viejo permiten investigar el asentamiento original de la ciudad de León. Mapa Nacional de Turismo ubica el sitio en Puerto Momotombo, en su sección de arquitectura de La Paz Centro.",
+      "context": "La fuente institucional sitúa la fundación de la ciudad original en 1524 y el redescubrimiento de las ruinas en 1967. El recorrido arqueológico permite distinguir este asentamiento de la ciudad actual de León.",
+      "significance": "La publicación Ciudades Patrimoniales de Mapa Nacional de Turismo registra su reconocimiento por UNESCO en 2000. Es un punto de partida para estudiar las transformaciones del territorio y la memoria colonial; la interpretación se ampliará con documentación primaria.",
+      "sources": [
+        "paz",
+        "patrimonio",
+        "municipio",
+        "osm-leon-viejo"
+      ],
+      "claims": [
+        {
+          "text": "Mapa Nacional de Turismo ubica las ruinas en el poblado de Puerto Momotombo, dentro de su ficha Arquitectura de La Paz Centro.",
+          "source": "paz",
+          "locator": "Sección «Ruinas de León Viejo»",
+          "kind": "fact"
+        },
+        {
+          "text": "La fuente institucional identifica 1524 como año de fundación de la ciudad original y 1967 como año de redescubrimiento de las ruinas.",
+          "source": "paz",
+          "locator": "Sección «Ruinas de León Viejo», primer párrafo",
+          "kind": "fact"
+        },
+        {
+          "text": "La publicación Ciudades Patrimoniales atribuye a UNESCO la declaración patrimonial de León Viejo en 2000. Falta consultar directamente el registro UNESCO.",
+          "source": "patrimonio",
+          "locator": "Párrafo introductorio",
+          "kind": "fact"
+        }
+      ],
+      "latitude": 12.4005781,
+      "longitude": -86.6177931,
+      "coordinate_source": "osm-leon-viejo"
+    },
+    {
+      "slug": "catedral",
+      "review_status": "reviewed",
+      "period": "Época colonial",
+      "description": "La Catedral de León es un espacio de patrimonio arquitectónico y memoria cultural ubicado en la ciudad de León. La ficha municipal de Mapa Nacional de Turismo describe la transición del barroco al neoclásico en su construcción.",
+      "context": "La fuente institucional describe una planta rectangular, cinco naves y elementos barrocos y neoclásicos. Para esta primera revisión se evita fijar fechas de construcción antes de contrastarlas con el registro patrimonial primario.",
+      "significance": "La Catedral relaciona arquitectura, arte religioso y memoria literaria: Mapa Nacional de Turismo señala que Rubén Darío está sepultado en el templo y registra su reconocimiento patrimonial mundial en 2011.",
+      "sources": [
+        "municipio",
+        "patrimonio",
+        "osm-catedral"
+      ],
+      "claims": [
+        {
+          "text": "La descripción institucional caracteriza la construcción de la Catedral como una transición de lo barroco a lo neoclásico.",
+          "source": "municipio",
+          "locator": "Arquitectura → Catedral de León",
+          "kind": "fact"
+        },
+        {
+          "text": "Mapa Nacional de Turismo señala que el poeta Rubén Darío está sepultado en la Catedral de León.",
+          "source": "municipio",
+          "locator": "Arquitectura → Catedral de León, párrafo sobre sepulturas",
+          "kind": "fact"
+        },
+        {
+          "text": "Mapa Nacional de Turismo registra 2011 como el año de reconocimiento de la Catedral por UNESCO; el registro primario permanece por consultar.",
+          "source": "patrimonio",
+          "locator": "Párrafo introductorio",
+          "kind": "fact"
+        }
+      ],
+      "latitude": 12.434982,
+      "longitude": -86.8781023,
+      "coordinate_source": "osm-catedral"
+    },
+    {
+      "slug": "ruben-dario",
+      "description": "Según Mapa Nacional de Turismo, el Museo Archivo Rubén Darío conserva manuscritos, primeras ediciones, documentos, objetos personales y fotografías del poeta.",
+      "context": "La ficha institucional vincula la casa con la infancia de Darío. Se necesita consultar UNAN-León y el museo para ampliar antecedentes y criterios de conservación del archivo.",
+      "significance": "Su colección ofrece una entrada documental a la memoria literaria. No se confunde este museo de León con la casa natal de Ciudad Darío.",
+      "sources": [
+        "municipio"
+      ],
+      "claims": [
+        {
+          "text": "La ficha municipal describe una colección de manuscritos, primeras ediciones, documentos, objetos personales y fotografías de Rubén Darío.",
+          "source": "municipio",
+          "locator": "Arquitectura → Museo Archivo Rubén Darío",
+          "kind": "fact"
+        }
+      ]
+    },
+    {
+      "slug": "sutiaba",
+      "description": "Mapa Nacional de Turismo identifica las alfombras de aserrín de Semana Santa en Sutiaba como una expresión de arte religioso y participación familiar.",
+      "context": "La investigación abordará la historia de la comunidad y su patrimonio material e inmaterial. No se han recopilado testimonios ni se atribuyen interpretaciones a integrantes de la comunidad.",
+      "significance": "Las prácticas artísticas y comunitarias permiten investigar memoria e identidad, respetando las voces de sus participantes y distinguiendo descripción institucional de testimonio directo.",
+      "sources": [
+        "municipio"
+      ],
+      "claims": [
+        {
+          "text": "La fuente institucional describe la elaboración de alfombras de aserrín en Sutiaba durante Semana Santa, con escenas de la Pasión, Muerte y Resurrección de Cristo.",
+          "source": "municipio",
+          "locator": "Cultura y Festividades Religiosas → Semana Santa leonesa",
+          "kind": "fact"
+        }
+      ]
+    },
+    {
+      "slug": "san-juan",
+      "description": "La descripción institucional de San Juan Bautista de Sutiaba destaca su frontispicio de influencia barroca y una planta en cruz latina.",
+      "context": "El estudio de su relación con la comunidad requiere ampliar las fuentes documentales y consultar a sus responsables; esa investigación sigue pendiente.",
+      "significance": "Permite explorar el patrimonio arquitectónico de Sutiaba sin reducir la historia comunitaria a un solo edificio.",
+      "sources": [
+        "municipio"
+      ],
+      "claims": [
+        {
+          "text": "Mapa Nacional de Turismo describe un frontispicio de influencia barroca y una planta en cruz latina en San Juan Bautista de Sutiaba.",
+          "source": "municipio",
+          "locator": "Arquitectura → Iglesia San Juan Bautista de Sutiaba",
+          "kind": "fact"
+        }
+      ]
+    },
+    {
+      "slug": "leyendas",
+      "description": "Mapa Nacional de Turismo presenta el museo como un espacio que recrea personajes de mitos y leyendas mediante figuras y esculturas de artesanos locales.",
+      "context": "La fuente distingue el edificio, descrito como la antigua Cárcel La 21, del contenido de tradición oral expuesto. Falta contrastar su trayectoria con archivos y responsables del museo.",
+      "significance": "El espacio permite abordar memoria oral y memoria del edificio. Los personajes legendarios son relatos culturales, no pruebas de acontecimientos sobrenaturales.",
+      "sources": [
+        "municipio"
+      ],
+      "claims": [
+        {
+          "text": "La ficha institucional describe estaciones dedicadas a mitos y leyendas recreadas con figuras y esculturas de artesanos locales.",
+          "source": "municipio",
+          "locator": "Arquitectura → Museo de Mitos, leyendas y tradiciones Coronel Joaquín de Arrechavala",
+          "kind": "fact"
+        },
+        {
+          "text": "Mapa Nacional de Turismo identifica el edificio del museo como una antigua prisión llamada Cárcel La 21.",
+          "source": "municipio",
+          "locator": "Sección del museo, segundo párrafo",
+          "kind": "fact"
+        }
+      ]
+    },
+    {
+      "slug": "recoleccion",
+      "description": "La ficha institucional de La Recolección destaca su fachada labrada en cantería, de estilo barroco mexicano, y altares de estilo neoclásico.",
+      "context": "La investigación comparará la descripción arquitectónica con documentos del templo y fuentes patrimoniales antes de ampliar su cronología.",
+      "significance": "Es un caso para estudiar lenguajes arquitectónicos y patrimonio religioso en la ciudad de León.",
+      "sources": [
+        "municipio"
+      ],
+      "claims": [
+        {
+          "text": "Mapa Nacional de Turismo describe la fachada de La Recolección como barroca mexicana y sus altares como neoclásicos.",
+          "source": "municipio",
+          "locator": "Arquitectura → Iglesia La Recolección",
+          "kind": "fact"
+        }
+      ]
+    },
+    {
+      "slug": "teatro",
+      "description": "Mapa Nacional de Turismo describe el Teatro Municipal José de la Cruz Mena como un edificio de dos plantas cuya fachada combina elementos barrocos coloniales y neoclásicos.",
+      "context": "La investigación ampliará su trayectoria, programación y vínculo con las artes mediante fuentes municipales y documentos del teatro.",
+      "significance": "La fuente vincula el nombre del teatro con el legado musical de José de la Cruz Mena, como parte de las expresiones artísticas leonesas.",
+      "sources": [
+        "municipio"
+      ],
+      "claims": [
+        {
+          "text": "La ficha institucional describe un edificio esquinero de planta rectangular y dos plantas, con una fachada de elementos barrocos coloniales y neoclásicos.",
+          "source": "municipio",
+          "locator": "Arquitectura → Teatro Municipal de León, José de la Cruz Mena",
+          "kind": "fact"
+        },
+        {
+          "text": "La sección cultural de la ficha municipal relaciona el nombre del teatro con el legado musical de José de la Cruz Mena.",
+          "source": "municipio",
+          "locator": "Cultura → párrafo sobre literatura y arte",
+          "kind": "fact"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "place": "leon-viejo",
+      "year": 1524,
+      "title": "Fundación del asentamiento original de León",
+      "description": "Mapa Nacional de Turismo identifica este año como la fundación de la ciudad original en el lugar hoy conocido como León Viejo.",
+      "source": "paz"
+    },
+    {
+      "place": "leon-viejo",
+      "year": 1967,
+      "title": "Redescubrimiento de las ruinas de León Viejo",
+      "description": "Año de redescubrimiento indicado en la ficha institucional Arquitectura de La Paz Centro.",
+      "source": "paz"
+    },
+    {
+      "place": "leon-viejo",
+      "year": 2000,
+      "title": "Reconocimiento patrimonial de León Viejo",
+      "description": "Año del reconocimiento por UNESCO según Mapa Nacional de Turismo. Pendiente de contrastar con el registro primario UNESCO.",
+      "source": "patrimonio"
+    },
+    {
+      "place": "catedral",
+      "year": 2011,
+      "title": "Reconocimiento patrimonial de la Catedral",
+      "description": "Año del reconocimiento por UNESCO según Mapa Nacional de Turismo. Pendiente de contrastar con el registro primario UNESCO.",
+      "source": "patrimonio"
+    }
+  ],
+  "questions": [
+    {
+      "place": "leon-viejo",
+      "prompt": "¿Qué año identifica la ficha institucional como fundación del asentamiento original de León?",
+      "options": [
+        "1524",
+        "1967",
+        "2011"
+      ],
+      "correct_index": 0,
+      "explanation": "La sección Ruinas de León Viejo de Arquitectura de La Paz Centro indica que allí se fundó originalmente la ciudad en 1524. 1967 corresponde al redescubrimiento de las ruinas.",
+      "source": "paz"
+    },
+    {
+      "place": "catedral",
+      "prompt": "¿Qué poeta señala Mapa Nacional de Turismo como sepultado en la Catedral de León?",
+      "options": [
+        "Rubén Darío",
+        "José de la Cruz Mena"
+      ],
+      "correct_index": 0,
+      "explanation": "La sección de Catedral de León señala la sepultura de Rubén Darío. El nombre José de la Cruz Mena se vincula en el catálogo con el teatro y el legado musical.",
+      "source": "municipio"
+    }
+  ]
+}
